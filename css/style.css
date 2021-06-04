@@ -123,11 +123,12 @@
 /* ---------------------------two-section start------------------------------ */
 
 .two-section{
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 
 .two-section .left{
     padding-top: 8rem;
+    padding-right: 100px;
 }
 
 .two-section .left h2{
@@ -198,6 +199,7 @@
 
 .payment-section .payment-section-text{
     padding-top: 6rem;
+    padding-right: 50px;
 }
 
 .payment-section .payment-section-text .carousel-indicators{
@@ -222,6 +224,7 @@
     color: #000;
     font-weight: bold;
     font-size: 4rem;
+    line-height: 50px;
 }
 
 .payment-section .payment-section-text hr{
@@ -277,7 +280,7 @@
     color: #000;
     font-weight: 700;
     margin-bottom: 2rem;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .company-overview .company-overview-text p{
@@ -314,6 +317,7 @@
 
 .master-first h2{
     color: #fff;
+    line-height: 40px;
 }
 
 .master-first h2 span{
@@ -389,8 +393,9 @@
 
 .master-secound .testimonial .left h2{
     padding-top: 6rem;
-   font-size: 4rem;
-   font-weight: 700;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 40px;
 }
 
 .master-secound .testimonial .carousel-indicators{
@@ -449,6 +454,7 @@
     color: #000;
     font-weight: bold;
     margin-bottom: 5rem;
+    line-height: 40px;
 }
 
 .wrapper h2 span{
@@ -550,6 +556,7 @@ input[type="checkbox"]{
     letter-spacing: 1px;
     font-size: 5rem;
     font-weight: bold;
+    line-height: 55px;
 }
 
 .contact-form .left p{
@@ -638,7 +645,6 @@ footer p{
 
 }
 
-
 @media only screen and (max-width:991px) {
   
     .two-section .left{
@@ -647,7 +653,7 @@ footer p{
   
     .two-section .left h2{
         font-size: 3rem;
-        line-height: 35px;
+        line-height: 40px;
     }
 
     .payment-section .payment-section-img img{
@@ -656,7 +662,7 @@ footer p{
 
     .payment-section .payment-section-text h2{
         font-size: 3rem;
-        line-height: 35px;
+        line-height: 40px;
     }
 
     .company-overview .company-overview-img img{
@@ -691,10 +697,14 @@ footer p{
     .two-section{
         text-align: center;
     }
+
+    .two-section .left{
+        padding-right: 0px;
+    }
     
     .two-section .right img{
         margin-top: 5rem;
-        width: 70%;
+        width: 90%;
     }
 
     .amazing-features .features{
@@ -711,6 +721,7 @@ footer p{
 
     .payment-section .payment-section-text{
         padding-top: 6rem;
+        /* padding-right: 0px; */
     }
 
     .payment-section .payment-section-text hr{
@@ -742,12 +753,22 @@ footer p{
         margin-top: 10rem;
     }
 
+    .master-secound .testimonial .left{
+        text-align: center;
+     }
+     
+
     .master-secound .testimonial .right{
         margin-top: 5rem;
     }
 
     .master-secound .testimonial .carousel-indicators{
         display: none;
+    }
+
+    .contact-form .left {
+       text-align: center;
+       margin-bottom: 5rem;
     }
 
 }
