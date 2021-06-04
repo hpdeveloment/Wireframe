@@ -1,0 +1,756 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+/* --------------------------preloader-------------------------------------- */
+
+.preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background-image: url('../images/default.gif');
+    background-repeat: no-repeat; 
+    background-color: #FFF;
+    background-position: center;
+}
+
+/* ---------------------------full-wrapper start------------------------------ */
+
+.full-wrapper{
+    width: 100%;
+    background: url(../img/bg/home-bg.jpg), grey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    padding-top: 18%;
+}
+
+.banner .banner-text {
+    color: #fff;
+    padding-top: 80px;
+}
+
+.banner .banner-text h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.banner .banner-text p {
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.submit{
+   margin-top: 10px;
+   border: none;
+   padding: 10px 15px;
+   border-radius: 50px;
+   font-size: 10px;
+   font-weight: 700;
+}
+
+.banner .banner-img img{
+    width: 90%;
+}
+
+/* ---------------------------full-wrapper end------------------------------ */
+
+
+/* ---------------------------four-section start------------------------------ */
+
+.four-section{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.four-section h4{
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.four-section .box1{
+    background-color: #0DA3FA;
+}
+
+.four-section .box2{
+    background-color: #0F3460;
+}
+
+.four-section .box3{
+    background-color: #2BA46E;
+}
+
+.four-section .box4{
+    background-color: #F54391;
+}
+
+.four-section .four-boxes{
+    color: #fff;
+    margin-top: 100px;
+    padding: 2rem 1rem;
+}
+
+.four-section .four-boxes span{
+    color: #0DA3FA;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.four-section .four-boxes h5{
+   font-size: 16px;
+   padding: 15px 0;
+} 
+
+/* ---------------------------four-section end------------------------------ */
+
+
+/* ---------------------------two-section start------------------------------ */
+
+.two-section{
+    margin-top: 10rem;
+}
+
+.two-section .left{
+    padding-top: 8rem;
+}
+
+.two-section .left h2{
+    font-size: 4rem;
+    color: #000;
+   font-weight: bold;
+   line-height: 50px;
+}
+
+.two-section .right img{
+    width: 100%;
+}
+
+/* ---------------------------two-section over------------------------------ */
+
+
+/* ---------------------------big-wrapper start------------------------------ */
+
+.big-wrapper{
+    width: 100%;
+    background-image: url(../img/bg/bg-elements_4.png);
+    background-repeat: no-repeat;
+    margin-top: 10rem;
+    padding: 10rem 0rem;
+}
+
+.big-wrapper h2{
+    color: #000;
+    font-weight: 700;
+}
+
+.big-wrapper h2 span{
+    color: #0DA3FA;
+}
+
+.amazing-features .features{
+    margin-top: 10rem;
+    background-color: #fff;
+    padding: 2rem 2rem;
+}
+
+.amazing-features .features span{
+    background-color: #0DA3FA;
+    color: #fff;
+    padding: 8px;
+    position: absolute;
+    top: -15px;
+}
+
+.amazing-features .features h5{
+    color: #000;
+    font-weight: 700;
+    padding: 1rem 0rem;
+}
+
+/* ---------------------------big-wrapper end------------------------------ */
+
+
+/* ---------------------------payment-section start------------------------------ */
+
+.payment-section{
+    margin-top: 10rem;
+}
+
+.payment-section .payment-section-img img{
+    width: 70%;
+}
+
+.payment-section .payment-section-text{
+    padding-top: 6rem;
+}
+
+.payment-section .payment-section-text .carousel-indicators{
+    background-color: #000;
+    text-align: left;
+    position: absolute;
+    top: 100%;
+}
+
+.payment-section .payment-section-text .carousel-indicators .indicators{
+    background-color: #0DA3FA;
+}
+
+.payment-section .payment-section-text span{
+    background-color: #0DA3FA;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.payment-section .payment-section-text h2{
+    color: #000;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.payment-section .payment-section-text hr{
+    border: 0.5px dotted #0F3460;
+    width: 15%;
+}
+
+.payment-section .payment-section-text p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* ---------------------------payment-section end------------------------------ */
+
+
+/* ---------------------------screenshort-section start------------------------------ */
+
+.screenshort-section{
+    margin-top: 5rem;
+}
+
+.screenshort-section h2{
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 8rem;
+}
+
+.screenshort-section h2 span{
+    color: #0DA3FA;
+}
+
+.screenshort-section .three-screenshort img{
+    width: 60%;
+}
+
+/* ---------------------------screenshort-section end------------------------------ */
+
+
+/* ---------------------------company-overview section start------------------------------ */
+
+.company-overview{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.company-overview .company-overview-img img{
+    border-radius: 10px;
+   width: 80%;
+}
+
+.company-overview .company-overview-text h3{
+    font-size: 2.6rem;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 30px;
+}
+
+.company-overview .company-overview-text p{
+    line-height: 23px;
+}
+
+.company-overview .company-overview-text h6{
+    color: #0DA3FA;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.company-overview .company-overview-text span{
+    font-size: 12px;
+    color: #fff;
+    background-color: #0DA3FA;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0px 0px 20px grey;
+}
+
+/* ---------------------------company-overview section end------------------------------ */
+
+
+/* ---------------------------master-first section start------------------------------ */
+
+.master-first{
+    width: 100%;
+    background-color: #1D293F;
+    padding: 5rem 0rem;
+}
+
+.master-first h2{
+    color: #fff;
+}
+
+.master-first h2 span{
+    color: #0DA3FA;
+}
+
+.master-first .pricing{
+    margin-top: 5rem;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 0rem;
+    border-radius: 5px;
+}
+
+.master-first .advance{
+    color: #fff;
+    background-color: #0DA3FA;
+}
+
+.master-first .pricing h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.master-first .pricing hr{
+    border: 0.2px dotted #0DA3FA;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.master-first .pricing h1{
+    font-weight: 700;
+}
+
+.master-first .pricing h5{
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.master-first .pricing .start{
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 12px;
+    margin-top: 1rem;
+    background-color: #28CDFB;
+}
+
+/* ---------------------------master-first section end------------------------------ */
+
+
+/* ---------------------------master-secound section start------------------------------ */
+
+.master-secound{
+    width: 100%;
+    background: url(../img/bg/testimonial-bg.jpg), grey;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.master-secound .testimonial .left{
+   color: #fff;
+}
+
+.master-secound .testimonial .left h2{
+    padding-top: 6rem;
+   font-size: 4rem;
+   font-weight: 700;
+}
+
+.master-secound .testimonial .carousel-indicators{
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+
+.master-secound .testimonial .carousel-indicators .indicators{
+    background-color: #0DA3FA;
+}
+
+.master-secound .testimonial .right{
+    width: 86%;
+    background-color: #fff;
+    padding: 4rem 3rem;
+    margin-bottom: 1rem;
+}
+
+.master-secound .testimonial .right img{
+    border-radius: 50%;
+    width: 10%;
+}
+
+.master-secound .testimonial .right h4{
+    margin-top: 2rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.master-secound .testimonial .right h5{
+    color: #000;
+    font-weight: 700;
+}
+
+.master-secound .testimonial .right p{
+    line-height: 2.5rem;
+}
+
+.master-secound .testimonial .right span{
+    margin-top: 1rem;
+    color: #FFC83D;
+}
+
+/* ---------------------------master-secound section end------------------------------ */
+
+
+/* ---------------------------wrapper accordion-section start------------------------------ */
+
+.wrapper{
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+.wrapper h2{
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.wrapper h2 span{
+    color: #0DA3FA;
+}
+  
+.wrapper .parent-tab{
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.18);
+    border: 1px solid #ebf0f3;
+}
+
+.wrapper .parent-tab label{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    z-index: 99;
+    transition: all 0.3s ease;
+}
+
+.parent-tab input:checked ~ label{
+    border-radius: 3px 3px 0 0;
+    background: #006fe6;
+}
+
+.wrapper label span{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.parent-tab label .icon{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    background: #007bff;
+    display: block;
+    color: #fff;
+    border-radius: 50%;
+    text-shadow: 0 -1px 1px #0056b3;}
+
+.wrapper .child-tab label .icon{
+    height: 27px;
+    width: 27px;}
+
+.parent-tab label .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.wrapper .parent-tab .content{
+    max-height: 0px;
+    overflow: hidden;
+    background: #F4F8FB;
+    border-radius: 0 0 3px 3px;
+    transition: all 0.4s ease;
+}
+
+.parent-tab input:checked ~ .content{
+    max-height: 100vh;
+}
+
+.parent-tab .content p{
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.child-tab .sub-content p{
+    font-size: 15px
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    display: none;
+}
+
+/* ---------------------------wrapper accordion-section end------------------------------ */
+
+/* ---------------------------contact-form section start------------------------------ */
+
+.contact-form{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.contact-form .left {
+    padding-top: 4rem;
+}
+
+.contact-form .left h1{
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.contact-form .left p{
+    padding: 1rem 0rem;
+    line-height: 2.5rem;
+}
+
+.contact-form .left span{
+    font-size: 1.3rem;
+    margin: 0.3rem;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.contact-form .left .icon span:nth-child(1){
+    background-color: #1C58A1;
+}
+
+.contact-form .left .icon span:nth-child(2){
+    background-color: #12B8E8;
+}
+
+.contact-form .left .icon span:nth-child(3){
+    background-color: #1A579A;
+}
+
+.contact-form .left .icon span:nth-child(4){
+    background-color: #B67F61;
+}
+
+.contact-form .left .icon span:nth-child(5){
+    background-color: #E51813;
+}
+
+.contact-form .right .form-group input,
+.contact-form .right .form-group textarea
+{
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #dbdbdb;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+/* ---------------------------contact-form section end------------------------------ */
+
+
+/* ---------------------------footer section start------------------------------ */
+
+footer{
+    width: 100%;
+    background-color: #1D293F;
+    color: #fff;
+    padding: 3rem 0rem 1rem;
+}
+
+footer p{
+    word-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+/* ---------------------------footer section end------------------------------ */
+
+
+/* ---------------------------Media Query start------------------------------ */
+
+@media only screen and (max-width:1199px) {
+
+    .two-section .left{
+        padding-top: 4rem;
+    }
+
+    .payment-section .payment-section-text{
+        padding-top: 2rem;
+    }
+
+    .company-overview .company-overview-text h3{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .master-secound .testimonial .right{
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width:991px) {
+  
+    .two-section .left{
+        padding-top: 2rem;
+    }
+  
+    .two-section .left h2{
+        font-size: 3rem;
+        line-height: 35px;
+    }
+
+    .payment-section .payment-section-img img{
+        width: 90%;
+    }
+
+    .payment-section .payment-section-text h2{
+        font-size: 3rem;
+        line-height: 35px;
+    }
+
+    .company-overview .company-overview-img img{
+        width: 100%;
+    }
+
+    .company-overview .company-overview-text h6{
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .banner {
+        text-align: center;
+    }
+    
+    .banner .banner-text {
+        padding-top: 20px;
+        margin-bottom: 10rem;
+    }
+    
+    .banner .banner-text h1 {
+        font-size: 3.5rem;
+    }
+
+    .banner .banner-text p {
+        margin-top: 2rem;
+    }
+
+    .two-section{
+        text-align: center;
+    }
+    
+    .two-section .right img{
+        margin-top: 5rem;
+        width: 70%;
+    }
+
+    .amazing-features .features{
+        margin-top: 5rem;
+    }
+
+    .payment-section{
+        text-align: center;
+    }
+    
+    .payment-section .payment-section-img img{
+        width: 60%;
+    }
+
+    .payment-section .payment-section-text{
+        padding-top: 6rem;
+    }
+
+    .payment-section .payment-section-text hr{
+        display: none;
+    }
+
+    .payment-section .payment-section-text .carousel-indicators{
+        text-align: center;
+    }
+
+    .screenshort-section{
+        margin-top: 20rem;
+    }
+    
+    .screenshort-section .three-screenshort img{
+        width: 40%;
+        margin-top: 5rem;
+    }
+
+    .company-overview{
+        text-align: center;
+    } 
+    
+    .company-overview .company-overview-img img{
+        width: 70%;
+    }
+
+    .company-overview .company-overview-text{
+        margin-top: 10rem;
+    }
+
+    .master-secound .testimonial .right{
+        margin-top: 5rem;
+    }
+
+    .master-secound .testimonial .carousel-indicators{
+        display: none;
+    }
+
+}
+
+/* ---------------------------Media Query end------------------------------ */
+
