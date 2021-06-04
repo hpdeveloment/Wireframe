@@ -605,6 +605,46 @@ input[type="checkbox"]{
 
 /* ---------------------------contact-form section end------------------------------ */
 
+.navigation{
+    width: 100%;
+    background-color: #0D9AE9;
+    padding: 2rem 0rem 2rem;
+}
+
+.navigation .nav .logo img{
+    width: 20%;
+}
+
+.navigation .nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navigation .nav ul li{
+   list-style-type: none;
+}
+
+.navigation .nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* ---------------------------partner-section start------------------------------ */
+
+.partner{
+    width: 100%;
+    background-color: #0F3460;
+    padding: 2rem 0rem 4rem;
+}
+
+.partner .brand .all-partner img{
+    width: 80%;
+}
+
+/* ---------------------------partner-section end------------------------------ */
+
 
 /* ---------------------------footer section start------------------------------ */
 
@@ -676,6 +716,10 @@ footer p{
 
     .company-overview .company-overview-text h6{
         margin-top: 1rem;
+    }
+
+    .navigation .nav ul li a{
+        font-size: 1rem;
     }
 
 }
@@ -788,6 +832,25 @@ footer p{
        padding-top: 0rem;
        margin-bottom: 5rem;
     }
+
+    .navigation{
+        padding: 4rem 0rem 4rem;
+        text-align: center;
+    }
+    
+    .navigation .nav .logo img{
+        width: 40%;
+        padding-bottom: 4rem;
+    }
+    
+    .partner .brand .all-partner{
+        margin-top: 4rem;
+    }
+
+    .partner .brand .all-partner img{
+        width: 40%;
+    }
+    
 
 }
 
