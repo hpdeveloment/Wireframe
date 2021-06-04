@@ -696,6 +696,7 @@ footer p{
 
     .two-section{
         text-align: center;
+        margin-top: 10rem;
     }
 
     .two-section .left{
@@ -733,7 +734,7 @@ footer p{
     }
 
     .screenshort-section{
-        margin-top: 20rem;
+        margin-top: 10rem;
     }
     
     .screenshort-section .three-screenshort img{
@@ -746,7 +747,7 @@ footer p{
     } 
     
     .company-overview .company-overview-img img{
-        width: 80%;
+        width: 100%;
     }
 
     .company-overview .company-overview-text{
@@ -756,10 +757,13 @@ footer p{
     .company-overview .company-overview-text h6{
         margin-top: 3rem;
     }
-     
+    
+    .master-secound .testimonial .left{
+        text-align: center;
+    }
+
     .master-secound .testimonial .left h2{
         padding-top: 0rem;
-        text-align: center;
     }
 
     .master-secound .testimonial .right{
@@ -776,6 +780,7 @@ footer p{
 
     .contact-form .left {
        text-align: center;
+       padding-top: 0rem;
        margin-bottom: 5rem;
     }
 
