@@ -249,7 +249,7 @@
 .screenshort-section h2{
     color: #000;
     font-weight: 700;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 .screenshort-section h2 span{
@@ -317,7 +317,7 @@
 
 .master-first h2{
     color: #fff;
-    line-height: 40px;
+    line-height: 45px;
 }
 
 .master-first h2 span{
@@ -395,7 +395,7 @@
     padding-top: 6rem;
     font-size: 4rem;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .master-secound .testimonial .carousel-indicators{
@@ -454,7 +454,7 @@
     color: #000;
     font-weight: bold;
     margin-bottom: 5rem;
-    line-height: 40px;
+    line-height: 45px;
 }
 
 .wrapper h2 span{
@@ -648,7 +648,7 @@ footer p{
 @media only screen and (max-width:991px) {
   
     .two-section .left{
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
   
     .two-section .left h2{
@@ -737,7 +737,7 @@ footer p{
     }
     
     .screenshort-section .three-screenshort img{
-        width: 40%;
+        width: 50%;
         margin-top: 5rem;
     }
 
@@ -746,20 +746,28 @@ footer p{
     } 
     
     .company-overview .company-overview-img img{
-        width: 70%;
+        width: 80%;
     }
 
     .company-overview .company-overview-text{
         margin-top: 10rem;
     }
 
-    .master-secound .testimonial .left{
-        text-align: center;
-     }
+    .company-overview .company-overview-text h6{
+        margin-top: 3rem;
+    }
      
+    .master-secound .testimonial .left h2{
+        padding-top: 0rem;
+        text-align: center;
+    }
 
     .master-secound .testimonial .right{
         margin-top: 5rem;
+    }
+
+    .master-secound .testimonial .right img{
+        width: 20%;
     }
 
     .master-secound .testimonial .carousel-indicators{
