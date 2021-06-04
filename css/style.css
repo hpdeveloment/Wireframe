@@ -81,6 +81,7 @@
     color: #000;
     font-weight: bold;
     line-height: 25px;
+    padding-right: 80px;
 }
 
 .four-section .box1{
@@ -625,6 +626,10 @@ footer p{
 /* ---------------------------Media Query start------------------------------ */
 
 @media only screen and (max-width:1199px) {
+
+    .four-section h4{
+        padding-right: 0px;
+    }
 
     .two-section .left{
         padding-top: 4rem;
